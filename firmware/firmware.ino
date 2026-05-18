@@ -49,7 +49,7 @@ AccelStepper stepper(1, STEP_PIN, DIR_PIN);
 const float STEPS_PER_REV = 9600.0;   
 float currentMaxSpeed = 3000.0;       
 float currentAcceleration = 1000.0;   
-const int SETTLING_TIME = 500;            // čas na uklidnění stolu [ms]
+const int SETTLING_TIME = 500;            // čas na ustaleni stolu [ms]
 
 // variables pro kontinualni metodu
 bool isSpinning = false;       
